@@ -55,15 +55,16 @@ selector{
 */
 
 body{/*seletor de tag*/
-    background-color: #ffc107;/*cor de fundo*/
-    font-family: Arial;
+    background-color: #cb9dff;/*cor de fundo*/
+    font-family: Arial;/*muda a fonte*/
 }
 
 #col1{/*seletor de id*/
     background-color: white;
     width: 400px;/*lagura */
-    text-align: center;
+    text-align: center;/*alinhamento do texto*/
 	padding:10px 38px 38px 38px;/*espaçamento pra dentro,sentido horario ,na net vc encontra so abreviada*/
+	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
 }
 
 .titulo{/*seletor de classe*/
@@ -116,8 +117,8 @@ body{/*seletor de tag*/
 }
 
 #col2{
-	width: 800px;
-	border: 1px solid red;
+	width: 700px;
+	margin-left: 39px;
 }
 
 .oferta{
@@ -136,9 +137,12 @@ body{/*seletor de tag*/
 }
 
 .tudo{
-	 background-color: aquamarine;
 	display:flex;
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
+}
+
+.foto{
+	width: 800px;
 }
